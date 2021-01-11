@@ -7,7 +7,7 @@ function isNumber(test){
 }
 
 /* Example # 2 */
-function isNotBoolean(test){
+function isNotBoolean(test, test2, test22, test32, test42, test25, test62, test72, test82, test92, test02){
   var retVal = false; //or any other initialization
   if(typeof test === 'boolean'){
     retVal = false;
