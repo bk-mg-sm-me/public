@@ -18,6 +18,17 @@ function isNotBoolean(test, test2, test22, test32, test42, test25, test62, test7
   return retVal;
 }
 
+function isNotBoolean2(test, test2, test22, test32, test42, test25, test62, test72, test82, test92, test02){
+  var retVal = false; //or any other initialization
+  if(typeof test === 'boolean'){
+    retVal = false;
+  }
+  else{
+    retVal = true;
+  }
+  return retVal;
+}
+
   /* Example # 1*/
   function isNumber(test){
     return typeof test === 'number';
